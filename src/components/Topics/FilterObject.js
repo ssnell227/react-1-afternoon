@@ -5,11 +5,11 @@ class FilterObject extends Component {
         super(props)
         this.state = {
             unfilteredArray: [
-                {name: 'Stephen', occupation: 'Badass', dinosaur: 'Stegasaurus', dog: 'Rex'},
-                {name: 'Mike', occupation: 'Routesetter', dinosaur: 'T-rex', laptop: 'Acer'},
-                {name: 'Danny', occupation: 'Butthead', dinosaur: 'Pterodactyl', dog: 'Fluffy'},
-                {name: 'Laura', occupation: 'Philosopher', dinosaur: 'Philosoraptor', laptop: 'Macbook'},
-                {name: 'Dougie', occupation: 'Comedian', dinosaur: 'Brontosaurus', janitor: 'Scruffy'}
+                {name: 'Stephen',  dinosaur: 'Stegasaurus', dog: 'Rex'},
+                {name: 'Mike',  dinosaur: 'T-rex', laptop: 'Acer'},
+                {name: 'Danny',  dinosaur: 'Pterodactyl', dog: 'Fluffy'},
+                {name: 'Laura',  dinosaur: 'Philosoraptor', laptop: 'Macbook'},
+                {name: 'Dougie',  dinosaur: 'Brontosaurus', janitor: 'Scruffy'}
             ],
             userInput: '',
             filteredArray: [],
